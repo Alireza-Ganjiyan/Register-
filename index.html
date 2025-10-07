@@ -8,7 +8,7 @@
   <style>
     body {
       font-family: 'Vazirmatn', Tahoma, Arial, sans-serif;
-      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      background: linear-gradient(135deg, #a18cd1 0%, #1a1a1a 50%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -16,14 +16,16 @@
       margin: 0;
       direction: ltr;
     }
+
     .container {
-      background-color: #fff;
+      background-color: #ecefec; /* سفید شیری */
       padding: 15px 20px;
       border-radius: 12px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.15);
       width: 290px; 
       text-align: left;
     }
+
     h2 {
       margin-bottom: 15px;
       font-weight: 700;
@@ -31,6 +33,7 @@
       font-size: 20px;
       text-align: center;
     }
+
     label {
       display: block;
       margin-bottom: 4px;
@@ -38,6 +41,7 @@
       color: #555;
       text-align: left;
     }
+
     input {
       display: flex;
       align-items: center;
@@ -52,26 +56,31 @@
       direction: ltr;
       box-sizing: border-box;
     }
+
     input:focus {
-      border-color: #30ff64;
+      border-color: #a18cd1;
       outline: none;
-      box-shadow: 0 0 8px rgba(48, 255, 100, 0.4);
+      box-shadow: 0 0 8px rgba(161, 140, 209, 0.4);
     }
+
     button {
       width: 100%;
-      padding: 8px;
-      background-color: #30ff64;
+      padding: 10px;
+      background: linear-gradient(135deg, #a18cd1 0%, #1a1a1a 100%);
       border: none;
       border-radius: 8px;
       color: #fff;
       font-size: 15px;
       font-weight: 600;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: opacity 0.3s ease;
+      letter-spacing: 1px; /* فاصله بین حروف */
     }
+
     button:hover {
-      background-color: #28cc50;
+      opacity: 0.9;
     }
+
     input::placeholder {
       color: #aaa;
       font-style: italic;
